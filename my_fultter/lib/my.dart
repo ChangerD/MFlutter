@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-import 'ActiveListView.dart';
-import 'ActiveListView2.dart';
-import 'HomeContentListView.dart';
+import 'list_view/ActiveListView.dart';
+import 'list_view/ActiveListView2.dart';
+import 'list_view/HomeContentListView.dart';
 
 void main() {
   runApp(MyApp());
