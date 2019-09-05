@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
 
-class HomePage extends StatefulWidget{
+class RedPage extends StatefulWidget{
   @override
   State<StatefulWidget> createState() {
     // TODO: implement createState
-    return HomePageState();
+    return RedPageState();
   }
 }
 
-class HomePageState extends State<HomePage>{
+class RedPageState extends State<RedPage>{
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
     return Scaffold(
-            appBar: AppBar(title: Text("HomePage")), body: Center());
+            appBar: AppBar(title: Text("RedPage")), body: Center());
   }
 
 }
