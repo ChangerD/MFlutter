@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:my_fultter/my_demo_app/ToNative/NativeImagePicker.dart';
 import 'package:my_fultter/my_demo_app/pages/Home1DetailPage.dart';
 
 final routes = {
   '/Home1DetailPage': (context, {arguments}) => Home1DetailPage(arguments: arguments),
+  '/NativeImagePicker': (context) => NativeImagePicker(),
 };
 
 //固定写法
